@@ -1,0 +1,76 @@
+body {
+    background-image: url('Wood.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #b3b3b3;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: 2px solid #8c8c8c;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: #8c8c8c;
+    border: 2px solid #666;
+    color: white;
+}
+
